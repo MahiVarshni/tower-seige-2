@@ -17,7 +17,7 @@ class Block{
             rectMode(CENTER);
             translate(pos.x, pos.y);
             rotate(angle);
-            fill(color);
+            fill("yellow");
             rect(0, 0, this.width, this.height);
             pop();
         } else {
